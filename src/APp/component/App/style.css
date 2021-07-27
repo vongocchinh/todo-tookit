@@ -1,0 +1,23 @@
+.con{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.467);
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    clear: both;
+    /* margin-bottom: 50px; */
+}
+.header .p{
+    color: blue;
+    font-size: 14px;
+    text-decoration: none;
+}

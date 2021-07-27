@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list{
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.097);
+}
+.item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 255, 0.289);
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.item .title{
+    width: auto;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.title{
+    width: auto;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.item .time{
+    width: auto;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.679);
+}
+/* detail */
+.Detail{
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(213, 222, 225, 0.144);
+    cursor: pointer;
+}
+.Detail .top-detail{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-detail .title{
+    width: auto;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.top-detail .time{
+    width: auto;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.528);
+}
+
+.Detail .content{
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    padding-top: 10px;
+    color: rgba(50, 50, 182, 0.659);
+}
+
+.detail-layout{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 200px;
+}
+
+
+.from{
+    width:400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.118);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.from form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.from input {
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.add{
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.item-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 255, 0.289);
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
